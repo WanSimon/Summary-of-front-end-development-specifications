@@ -171,3 +171,26 @@ treehead > treerow > treecell {…}
 /* Recommended */
 #bookmarkMenuItem { list-style-image: url(blah) }
 ```
+
+#### 图像特效处理
+
+```
+filter
+filter: blur(5px);//通常用来改变图片或者color的模糊度
+filter: brightness(0.4);//通常用来改变图片的亮度
+filter: contrast(200%);//调整图像的对比度
+filter: drop-shadow(16px 16px 20px blue);//能够给图像设置阴影效果
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%);
+```
+
+让页面整体显示成灰色
+body {
+filter: grayscale(1);
+}
+
+参考技术https://juejin.cn/post/7101097827312336932
